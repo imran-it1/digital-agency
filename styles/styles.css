@@ -31,7 +31,7 @@ body {
 }
 
 .nav-menus li:hover {
-    color: rgb(18, 73, 194);
+    color: #f93f3f;
 }
 
 
@@ -42,7 +42,7 @@ body {
 
 .banner-container {
     height: 100vh;
-    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.322));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,6 +89,8 @@ body {
     border-radius: 5px;
     font-size: 15px;
     font-weight: 500;
+    letter-spacing: 1.5px;
+    cursor: pointer;
 }
 
 .banner-btn .btn:hover {
@@ -102,5 +104,5 @@ body {
 }
 
 .banner-btn .primary:hover {
-    background-color: #fa2d2d;
+    background-color: #f81e1e;
 }
