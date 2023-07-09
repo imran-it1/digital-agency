@@ -225,4 +225,5 @@ body {
 .card:hover {
     background-color: lightcoral;
     color: white;
+    cursor: pointer;
 }
