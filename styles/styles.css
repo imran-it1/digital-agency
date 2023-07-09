@@ -39,7 +39,7 @@ body {
 
 .banner-container {
     height: 100vh;
-    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.322));
+    background-image: url('../asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.349), rgba(0, 0, 0, 0.322));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +113,7 @@ body {
 
 .service-container {
     height: 100vh;
-    background-image: url('/asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.973));
+    background-image: url('../asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.973));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
@@ -353,7 +353,7 @@ body {
 footer {
     width: 100%;
     height: 70vh;
-    background-image: url("/asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     color: white;
