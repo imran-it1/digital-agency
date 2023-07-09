@@ -379,7 +379,7 @@ footer li:hover {
     width: 75%;
     height: 60vh;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
