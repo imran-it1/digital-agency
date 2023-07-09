@@ -350,12 +350,69 @@ body {
 /* Footer Section Style */
 
 
-
-.footer-section {
+footer {
     width: 100%;
     height: 70vh;
     background-image: url("/asset/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
     background-repeat: no-repeat;
     background-blend-mode: overlay;
     color: white;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-wraper {
+    display: flex;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.footer-description {
+    margin-bottom: 25px;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+
+.social-link {
+    display: flex;
+    gap: 36px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.link {
+    margin-bottom: 32px;
+    font-size: 17px;
+}
+
+.link-list li {
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.fa-solid {
+    margin-right: 12px;
+}
+
+footer hr {
+    width: 80%;
+    margin: auto;
+}
+
+.copy {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 12px;
 }
