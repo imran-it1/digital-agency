@@ -227,3 +227,53 @@ body {
     color: white;
     cursor: pointer;
 }
+
+
+/* Appointment Section Style */
+
+
+.logo {
+    height: 80px;
+    height: 80px;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.number {
+    font-size: 35px;
+}
+
+
+.appointment-container {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: -90px auto 30px auto;
+    padding: 55px;
+    background-color: rgb(245, 44, 44);
+    justify-content: space-around;
+    border-radius: 20px;
+    color: white;
+}
+
+.left-part {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-right: 1px solid white;
+    padding-right: 30px;
+}
+
+.appointment-description {
+    font-size: 14px;
+    font-weight: normal;
+    width: 486px;
+    text-align: justify;
+}
+
+.appointment-btn:hover {
+    background-color: black;
+    color: white;
+}
