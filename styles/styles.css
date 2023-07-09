@@ -64,7 +64,7 @@ body {
 }
 
 .primary {
-    color: red;
+    color: rgb(247, 47, 47);
 }
 
 .banner-description {
@@ -227,6 +227,13 @@ body {
     color: white;
     cursor: pointer;
 }
+
+.card-hover:hover {
+    background-color: lightgreen;
+    color: white;
+    cursor: pointer;
+}
+
 
 
 /* Appointment Section Style */
