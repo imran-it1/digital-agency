@@ -12,7 +12,7 @@ body {
 
 .nav-container {
     display: flex;
-    background-color: gray;
+    background-color: rgba(172, 166, 166, 0.5);
     color: white;
     padding: 15px;
     justify-content: space-around;
@@ -36,9 +36,6 @@ body {
 
 
 /* Banner Section */
-
-
-
 
 .banner-container {
     height: 100vh;
@@ -105,4 +102,127 @@ body {
 
 .banner-btn .primary:hover {
     background-color: #f81e1e;
+}
+
+
+
+/* Main section style */
+
+
+/* Service Section */
+
+.service-container {
+    height: 100vh;
+    background-image: url('/asset/image/footer-bg.png'), linear-gradient(rgba(0, 0, 0, 0.973), rgba(0, 0, 0, 0.973));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 130px;
+}
+
+.card {
+    width: 253px;
+    height: 248px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+
+.card-img {
+    width: 90px;
+    height: 100px;
+}
+
+.service-description {
+    width: 60%;
+    font-size: 15px;
+    padding: 12px;
+    color: white;
+}
+
+.service-list {
+    list-style: decimal;
+    padding: 22px;
+    font-size: 14px;
+    color: white;
+
+}
+
+.right-side {
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+.all-card {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-service {
+    background-color: white;
+    color: gray;
+    border-radius: 25px;
+}
+
+.service-title {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 7px;
+    color: rgb(190, 207, 208);
+}
+
+.card-title {
+    width: 240px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.profile-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-right: 2px solid red;
+    padding-right: 30px;
+}
+
+.profile-picture {
+    height: 55px;
+    width: 55px;
+    border-radius: 25px;
+}
+
+.profile-name {
+    font-size: 14px;
+}
+
+.btn-service {
+    color: black;
+}
+
+.btn-service:hover {
+    outline: 1px solid lightcoral;
+    background-color: black;
+    color: white;
+}
+
+.card:hover {
+    background-color: lightcoral;
+    color: white;
 }
