@@ -14,7 +14,7 @@ body {
     display: flex;
     background-color: gray;
     color: white;
-    padding: 10px;
+    padding: 15px;
     justify-content: space-around;
     align-items: center;
 }
@@ -32,4 +32,75 @@ body {
 
 .nav-menus li:hover {
     color: rgb(18, 73, 194);
+}
+
+
+/* Banner Section */
+
+
+
+
+.banner-container {
+    height: 100vh;
+    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.banner-title {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.primary {
+    color: red;
+}
+
+.banner-description {
+    color: white;
+    padding: 10px;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.banner-btn {
+    display: flex;
+    gap: 12px;
+}
+
+.btn {
+    padding: 16px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.banner-btn .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.banner-btn .primary {
+    background-color: #f93f3f;
+    color: white;
+}
+
+.banner-btn .primary:hover {
+    background-color: #fa2d2d;
 }
